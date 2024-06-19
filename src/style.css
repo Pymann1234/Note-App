@@ -1,0 +1,114 @@
+/* App.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #343a40;
+}
+
+.note {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.note span {
+  flex-grow: 1;
+}
+
+.note button {
+  background-color: #ff5e6c;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.note button:hover {
+  background-color: #ff3f4e;
+}
+
+.note input[type="text"] {
+  width: calc(100% - 110px);
+  padding: 10px;
+  border: 2px solid #ced4da;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+  background-color: #f8f9fa;
+}
+
+.note input[type="text"]:focus {
+  border-color: #80bdff;
+  outline: none;
+}
+
+.note button[type="submit"] {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.note-form {
+  margin-bottom: 30px;
+}
+
+
+/* Input Note */
+/* NoteForm.css */
+.input-note {
+  margin-left: 130px;
+  width: 80%;
+  height: 40px;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  transition: border-bottom-color 0.3s ease;
+}
+
+.input-note:focus {
+  border-bottom-color: #007bff; /* Blue border color when focused */
+}
+
+.btn-submit {
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container{
+  display: flex;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
