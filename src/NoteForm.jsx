@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 const NoteForm = ({ addNote }) => {
+  // React Hook
   const [text, setText] = useState('');
 
   const handleSubmit = (e) => {
@@ -11,6 +12,7 @@ const NoteForm = ({ addNote }) => {
   };
 
   return (
+    // Form Section
     <form className="form-container" onSubmit={handleSubmit}>
       <input
         type="text"
@@ -19,7 +21,7 @@ const NoteForm = ({ addNote }) => {
         className='input-note'
         onChange={(e) => setText(e.target.value)}
       />
-      <button type="submit" className='btn-submit'>Add Note</button>
+      <button type="submit" className='btn-submit'>Add A Note</button>
     </form>
   );
 };
