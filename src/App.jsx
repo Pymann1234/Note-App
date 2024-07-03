@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My Note App</h1>
+      <h1>Note Application</h1>
       <NoteForm addNote={addNote} />
       {notes.map((note, index) => (
         <Note key={index} index={index} note={note} deleteNote={deleteNote} />
