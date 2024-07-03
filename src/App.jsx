@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Note from './Note';
 import NoteForm from './NoteForm';
-// import './style.css'
 
 function App() {
   const [notes, setNotes] = useState([]);
