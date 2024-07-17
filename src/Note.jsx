@@ -4,7 +4,7 @@ const Note = ({ note, index, deleteNote }) => {
   return (
     <div className="note">
       <span>{note.text}</span>
-      <button onClick={() => deleteNote(index)}>Delete</button>
+      <button onClick={() => deleteNote(index)}>Delete</button> 
     </div>
   );
 };
